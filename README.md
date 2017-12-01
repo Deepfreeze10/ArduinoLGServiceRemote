@@ -3,19 +3,20 @@ Python and arduino based service remote for LG devices (smart TV, beamer, etc.).
 
 **What you need**
 
- - Hardware:
+Hardware:
 
- 1. An Arduino card (http://arduino.cc)
- 2. A USB cable
- 3. A 100 Ohm resistor
- 4. An IR led emitter
- 5. A PC with USB port
+1. An Arduino card (http://arduino.cc)
+2. A USB cable
+3. A 100 Ohm resistor
+4. An IR led emitter
+5. A PC with USB port
 
- - Software:
+Software:
 
 1. Arduino software (http://arduino.cc/en/Main/Software)
-2.  Excellent IR remote library written by Ken Shirriff (https://github.com/z3t0/Arduino-IRremote)
+2. Excellent IR remote library written by Ken Shirriff (https://github.com/z3t0/Arduino-IRremote)
 3. Python 2.7 (https://www.python.org/downloads/) 
+4. Python menu version <3.0.3. Higher versions don't work. pip install MySQL_python==3.0.3 (https://pypi.python.org/pypi/Menu/3.0.3)
 
 **Wiring things**
 
